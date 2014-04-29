@@ -2,7 +2,7 @@
 
 See <a href="http://austinhay.github.io/unit1_projects/images/devtools_codeschoolpoints.png">here</a> or below:
 
-<img src="http://austinhay.github.io/unit1_projects/images/devtools_codeschoolpoints.png" height="50" width="50">
+<img src="http://austinhay.github.io/unit1_projects/images/devtools_codeschoolpoints.png" height="200" width="200">
 
 ##QUIZ
 <b>* Explain which tabs support the following actions and how.</b>
