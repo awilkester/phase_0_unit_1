@@ -53,7 +53,7 @@ The largest file is a picture of Times Square (on what appears to be NYE). It is
 
 <b>* Explain how you would find out this information, and list the URL of offending image here and how big it is.</b>
 
-I found the largest file by running Chrome Dev Tools, clearing the panel, refreshing the website, and then sorting the paths by size. The first image to come up on the list of paths ranked in descending size is the biggest image on the website. URL <a href"http://www.ticketswizard.com/Images/Catalog/92624182-c482-4a35-8da2-4fbf2f502e94_Large_Large.png">here.</a>
+I found the largest file by running Chrome Dev Tools, clearing the panel, refreshing the website, and then sorting the paths by size. The first image to come up on the list of paths ranked in descending size is the biggest image on the website. URL <a href="http://www.ticketswizard.com/Images/Catalog/92624182-c482-4a35-8da2-4fbf2f502e94_Large_Large.png">here.</a>
 
 <b>* Test the www.ticketswizard.com website with google's [PageSpeed Insights](http://www.ticketswizard.com/).  (You can also download the chrome plugin).  What is the lowest hanging fruit to optimize the website?  How many kilobytes of data can be eliminated?</b>
 
