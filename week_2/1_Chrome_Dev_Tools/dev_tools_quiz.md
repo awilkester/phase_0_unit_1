@@ -1,14 +1,14 @@
 #### Include an inline screenshot of your codeschool's points from the profile page:
 
-See <a href"https://austinhay.github.io/unit1_projects/images/devtools_codeschoolpoints.png"> here.</a> or below:
+See <a href="http://austinhay.github.io/unit1_projects/images/devtools_codeschoolpoints.png">here</a> or below:
 
-<img ref="https://austinhay.github.io/unit1_projects/images/devtools_codeschoolpoints.png" height="50" width="50">
+<img src="http://austinhay.github.io/unit1_projects/images/devtools_codeschoolpoints.png" height="50" width="50">
 
 ##QUIZ
-<b>* Explain which tabs support the following actions and how.
-  * Realtime editing of HTML and CSS 
-  * Javascript Debugging
-  * Performance Optimization</b>
+<b>* Explain which tabs support the following actions and how.</b>
+  <b>* Realtime editing of HTML and CSS</b>
+  <b>* Javascript Debugging</b>
+  <b>* Performance Optimization</b>
 
   1.) Elements and sources tabs.
   2.) Console tab.
