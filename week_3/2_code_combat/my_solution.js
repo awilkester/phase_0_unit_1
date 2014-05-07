@@ -1,4 +1,4 @@
-// I worked on this challenge [by myself]]
+// I worked on this challenge BY MYSELF.
  
 // For each mission, write the title as a comment. (Shown here). Also include pseudocode as a comment. 
 // Note: to make commenting easier, you can highlight the section you want to comment and hold 
@@ -184,4 +184,4 @@ this.attackXY(59, 44);
 
 // Reflection:
 
-// To be honest I'm not totally sure how this has anything to do with what we are learning and I really didn't find it useful. In fact I thought it was a big waste of time. In the future it could be cool to give students an option to do this or code academy or something else more in line with our individual learning styles.
+// To be honest I'm not totally sure how this has anything to do with what we are learning and I really didn't find it useful. In fact I thought it was a big waste of time. I looked up and read about "this" "functions, semi colons and other JS elements in a much shorter amount of time then it took me to complete this game and all the exercises. In the future it could be cool to give students an option to do this or code academy or something else more in line with our individual learning styles.
