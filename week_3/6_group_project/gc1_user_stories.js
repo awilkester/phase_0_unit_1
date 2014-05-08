@@ -62,8 +62,9 @@ Pseudocode:
 	C.) Function should have one input, even or odd, which tells the function to either sort 
 	by even or odd length, find the median of the respective elements and return the solution
 	D.) Recall that the median is just the number in the middle of a set of numbers. 
-		Ex: array = {1 3 5} median = 3
+		Ex: array = {10 3 87} median = 3
 
+*/
 // ______________________________________________________ //
 // Release 2, Person 3:
 
