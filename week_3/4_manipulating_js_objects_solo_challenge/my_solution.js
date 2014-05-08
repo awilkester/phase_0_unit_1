@@ -46,40 +46,41 @@ var terah = {
 // __________________________________________
 // Write your code below.
 
-// Define a variable Adam using literal notation to assign with no properties
+// #1 Define a variable Adam using literal notation to assign with no properties
 var adam = {};
 
-// #1 Name adam object
+// #2 Name adam object
 adam.name = "Adam";
 
-// #2 Link Adam to Terah via spouse property
+// #3 Link Adam to Terah via spouse property
 terah.spouse = adam;
 
-// #3 Update Terah's weight
+// #4 Update Terah's weight
 terah.weight = 125;
 
-// #4 Remove Terah's eye color (Propery of variable terah)
+// #5 Remove Terah's eye color (Propery of variable terah)
 delete terah.eyeColor;
 
-// #5 Link Terah to Adam via spouse property
+// #6 Link Terah to Adam via spouse property
 adam.spouse = terah;
 
-// #6 Define a variable for Terah's children using literal notation to assign with no properties
+// #7 Define a variable for Terah's children using literal notation to assign with no properties
 terah.children = {};
 
-// #7 Add Carson object to Terah's children property
-terah.children.carson = {};
+// #8 Add Carson object to Terah's children property
+terah.children.carson = {name: "Carson"};
 terah.children.carson.name = "Carson";
 
-// #8 Add Carter object to Terah's children property
+
+// #9 Add Carter object to Terah's children property
 terah.children.carter = {};
 terah.children.carter.name = "Carter";
 
-// #9 Add Colton object to Terah's children property
+// #10 Add Colton object to Terah's children property
 terah.children.colton = {};
 terah.children.colton.name = "Colton";
 
-// #10 Link Adam's children property with the value of Terah's
+// #11 Link Adam's children property with the value of Terah's
 adam.children = {};
 adam.children = terah.children;
 
