@@ -46,22 +46,52 @@ var terah = {
 // __________________________________________
 // Write your code below.
 
+// Define a variable Adam using literal notation to assign with no properties
+var adam = {};
 
+// #1 Name adam object
+adam.name = "Adam";
 
+// #2 Link Adam to Terah via spouse property
+terah.spouse = adam;
 
+// #3 Update Terah's weight
+terah.weight = 125;
 
+// #4 Remove Terah's eye color (Propery of variable terah)
+delete terah.eyeColor;
 
+// #5 Link Terah to Adam via spouse property
+adam.spouse = terah;
 
+// #6 Define a variable for Terah's children using literal notation to assign with no properties
+terah.children = {};
+
+// #7 Add Carson object to Terah's children property
+terah.children.carson = {};
+terah.children.carson.name = "Carson";
+
+// #8 Add Carter object to Terah's children property
+terah.children.carter = {};
+terah.children.carter.name = "Carter";
+
+// #9 Add Colton object to Terah's children property
+terah.children.colton = {};
+terah.children.colton.name = "Colton";
+
+// #10 Link Adam's children property with the value of Terah's
+adam.children = {};
+adam.children = terah.children;
 
 // __________________________________________
-// Reflection: Use the reflection guidelines
-// 
-// 
-// 
-// 
-// 
-// 
-
+/* Reflection: Use the reflection guidelines
+// Overall I really enjoyed this challenge as it put 
+some of the JS readings to good use! I thought this was 
+much less tedious than challenge #2 and much more useful. 
+I think that the language of some of these activities could 
+be improved. I was able to decipher what was intended by 
+thinking about it for a while, but it definitely could have 
+been more clear! Ex: asking #6 and #7.*/
 
 // __________________________________________
 // Driver Code:  Do not alter code below this line.
