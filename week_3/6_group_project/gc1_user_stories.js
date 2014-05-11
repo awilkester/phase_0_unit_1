@@ -43,7 +43,7 @@ in a list that has an even length of numbers.
 Pseudocode:
 
 1.) Define a function "sum" which uses the .length property and boolean logic to:
-	A.) sort all elements based on even or odd length
+	A.) sort all elements based on even or odd length    <--- CHANGE ELEMENTS TO 'LIST' OR 'ARRAY'
 	B.) Returns the sum of those elements with even length and separately, those of odd length
 	C.) Function should have one input, even or odd, which tells the function to either sort 
 	by even or odd length, sum the respective elements and return the solution
@@ -67,7 +67,57 @@ Pseudocode:
 // ______________________________________________________ //
 // Release 2, Person 3:
 
+//////////// SUM ////////////////
 
+var oddLengthArray  = [1, 2, 3, 4, 5, 5, 7];
+var evenLengthArray = [4, 4, 5, 5, 6, 6, 6, 7];
+
+
+function sum(array) { 
+total=0;
+for (var i = 0; i < array.length; total += array[i++]);
+   return total;
+};
+
+
+alert(sum(oddLengthArray));
+alert(sum(evenLengthArray));
+
+
+//////////// MEAN ////////////////
+
+var oddLengthArray  = [1, 2, 3, 4, 5, 5, 7];
+var evenLengthArray = [4, 4, 5, 5, 6, 6, 6, 7];
+
+function mean(array) {
+ var sum = 0;
+ for (i = 0; i < array.length; i++) {
+ 	sum += array[i];
+	}
+	return array.length ? sum / array.length : 0;
+};
+ 
+
+alert(mean(oddLengthArray));
+alert(mean(evenLengthArray));
+
+//////////// MEDIAN ////////////////
+
+var oddLengthArray  = [1, 2, 3, 4, 5, 5, 7];
+var evenLengthArray = [4, 4, 5, 5, 6, 6, 6, 7];
+
+function median(array) {
+	var med = Math.floor(array.length / 2);
+    
+    	if ((array.length % 2) === 1) { 
+        	return array[med];
+        } else {
+        	return (array[med - 1] + array[med]) / 2;
+        }
+};
+
+alert(median(oddLengthArray))
+alert(median(evenLengthArray))
 
 
 // ______________________________________________________ //
@@ -78,6 +128,4 @@ Pseudocode:
 
 // ______________________________________________________ //
 // Release 4, Person 5:
-
-
 
